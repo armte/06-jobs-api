@@ -51,7 +51,7 @@ export const handleAddEdit = () => {
               // a 201 is expected for a successful create
               message.textContent = "The job entry was created.";
             }
-      
+            
             company.value = "";
             position.value = "";
             status.value = "pending";
